@@ -1,6 +1,9 @@
 body{
     margin: 0px auto;
 }
+.bg{
+    background-color: #e95a08;
+}
 .primary{
     color: #e95a08;
 }
@@ -10,3 +13,68 @@ body{
 .menu-color{
     color: #f5f8ff;
 }
+a{
+    list-style: none;
+}
+
+
+
+/*card css*/
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+.div5 {
+    grid-row-start: 2;
+}
+
+.div6 {
+    grid-row-start: 2;
+}
+
+.div7 {
+    grid-row-start: 2;
+}
+
+.div8 {
+    grid-row-start: 2;
+}
+ 
+
+
+
+
+
+
+/*galary*/
+
+.parent-gal {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+.div-gal1{
+    background-image: url(img/deal-bloom.png);
+    border-radius: 20px;
+}  
+
+.div-gal2 {
+    background-image: url(img/deal-ana.png);
+    border-radius: 20px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.div-gal3 {
+    background-image: url(img/deal-zabo.png);
+    border-radius: 20px;
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+        
