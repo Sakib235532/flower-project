@@ -213,7 +213,7 @@ a{
     font-size: 3rem;
 }
 .gal{
-    margin-left: 70px;
+    margin-left: 10px ;
 }
 .parent-gal {
     display: grid;
@@ -407,6 +407,9 @@ a{
     font-size: 1rem;
     padding: 0px 10px;
     margin-left: 100px;
+}
+.plant p br{
+    display: none;
 }
 .parent {
     display: grid;
